@@ -1,35 +1,39 @@
 import React from 'react';
+import { useTranslate } from '../../hooks';
 import { Subtitle } from '../../ui';
 import { ContentWrapper, ListItem } from './side-menu.style';
 
 const SideMenu = () => {
+	const { translate } = useTranslate();
 	return (
 		<ContentWrapper>
-			<Subtitle>Contents</Subtitle>
-			<ListItem>1 Basic usage</ListItem>
+			<Subtitle>{translate('components.side-menu.contents')}</Subtitle>
+			<ListItem>{translate('components.side-menu.1basicUsage')}</ListItem>
 			<ListItem>
-				2 Notable features
-				<ListItem>2.1 Declarative </ListItem>
-				<ListItem>2.2 Components</ListItem>
-				<ListItem>2.3 Functional components</ListItem>
+				{translate('components.side-menu.2notableFeatures')}
+				<ListItem>{translate('components.side-menu.21declarative')}</ListItem>
+				<ListItem>{translate('components.side-menu.22components')}</ListItem>
+				<ListItem>{translate('components.side-menu.23functionalComponents')}</ListItem>
 				<ListItem>
-					2.4 React hooks <ListItem>2.4.1 Rules of hooks</ListItem>
+					{translate('components.side-menu.24reactHooks')}
+					<ListItem>{translate('components.side-menu.241rulesOfHooks')}</ListItem>
 				</ListItem>
-				<ListItem>2.5 Class-based components</ListItem>
-				<ListItem>2.6 Virtual DOM</ListItem>
-				<ListItem>2.7 Lifecycle methods</ListItem>
-				<ListItem>2.8 JSX </ListItem>
-				<ListItem>2.9 Architecture beyond HTML</ListItem>
+				<ListItem>{translate('components.side-menu.25classBasedComponents')}</ListItem>
+				<ListItem>{translate('components.side-menu.26virtualDOM')}</ListItem>
+				<ListItem>{translate('components.side-menu.27lifecycleMethods')}</ListItem>
+				<ListItem>{translate('components.side-menu.28JSX')}</ListItem>
+				<ListItem>{translate('components.side-menu.29architectureBeyondHTML')}</ListItem>
 			</ListItem>
 			<ListItem>
-				3 Common idioms<ListItem>3.1 Unidirectional data flow</ListItem>
+				{translate('components.side-menu.3commonIdioms')}
+				<ListItem>{translate('components.side-menu.31unidirectionalDataFlow')}</ListItem>
 			</ListItem>
-			<ListItem>4 Future development</ListItem>
-			<ListItem>5 History</ListItem>
-			<ListItem>6 Licensing</ListItem>
-			<ListItem>7 See also</ListItem>
-			<ListItem>8 References</ListItem>
-			<ListItem>9 External links</ListItem>
+			<ListItem>{translate('components.side-menu.4futureDevelopment')}</ListItem>
+			<ListItem>{translate('components.side-menu.5history')}</ListItem>
+			<ListItem>{translate('components.side-menu.6licensing')}</ListItem>
+			<ListItem>{translate('components.side-menu.7seeAlso')}</ListItem>
+			<ListItem>{translate('components.side-menu.8references')}</ListItem>
+			<ListItem>{translate('components.side-menu.9externalLinks')}</ListItem>
 		</ContentWrapper>
 	);
 };

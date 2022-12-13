@@ -1,0 +1,39 @@
+{
+	"translations": {
+		"components": {
+			"content": {
+				"componentBasedTitle": "Component-Based",
+				"componentBasedDescription": "Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.",
+				"declarativeTitle": "Declarative",
+				"declarativeDescription": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable and easier to debug.",
+				"description": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library[3] for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.[4][5][6] React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. However, Reac is only concerned with state management and rendering that state to the DOM, so\n\t\t\t\tcreating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality."
+			},
+			"page": {
+				"title": "React (JavaScript library)"
+			},
+			"side-menu": {
+				"contents": "Contents",
+				"1basicUsage": "1 Basic usage",
+				"2notableFeatures": "2 Notable features",
+				"21declarative": "2.1 Declarative",
+				"22components": "2.2 Components",
+				"23functionalComponents": "2.3 Functional components",
+				"24reactHooks": "2.4 React hooks",
+				"241rulesOfHooks": "2.4.1 Rules of hooks",
+				"25classBasedComponents": "2.5 Class-based components",
+				"26virtualDOM": "2.6 Virtual DOM",
+				"27lifecycleMethods": "2.7 Lifecycle methods",
+				"28JSX": "2.8 JSX",
+				"29architectureBeyondHTML": "2.9 Architecture beyond HTML",
+				"3commonIdioms": "3 Common idioms",
+				"31unidirectionalDataFlow": "3.1 Unidirectional data flow",
+				"4futureDevelopment": "4 Future development",
+				"5history": "5 History",
+				"6licensing": "6 Licensing",
+				"7seeAlso": "7 See also",
+				"8references": "8 References",
+				"9externalLinks": "9 External links"
+			}
+		}
+	}
+}
