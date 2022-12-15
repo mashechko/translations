@@ -12,6 +12,7 @@ export const PageHeader = styled.div`
 	align-items: center;
 	justify-content: center;
 	border-bottom: 1px solid #969bab;
+	gap: 32px;
 `;
 
 export const PageBody = styled.div`
@@ -19,4 +20,15 @@ export const PageBody = styled.div`
 	display: grid;
 	grid-auto-flow: column;
 	grid-template-columns: 1fr 3fr;
+`;
+
+export const Button = styled.button`
+	height: 40px;
+	width: 128px;
+	display: grid;
+	place-content: center;
+	border-radius: 12px;
+	background-color: #8c30f5;
+	color: white;
+	font-weight: 600;
 `;

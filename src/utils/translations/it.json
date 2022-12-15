@@ -1,0 +1,39 @@
+{
+	"translations": {
+		"components": {
+			"content": {
+				"componentBasedTitle": "Componenti",
+				"componentBasedDescription": "Crea componenti in isolamento e componili per creare UI complesse. Dato che interazioni e logica per i componenti sono implementate in JavaScript puoi facilmente passare ed accedere strutture dati complesse in vari punti della tua applicazione senza dover salvare informazioni sul DOM.",
+				"declarativeTitle": "Dichiarativo",
+				"declarativeDescription": "React rende la creazione di UI interattive facile e indolore. Progetta interfacce per ogni stato della tua applicazione. Ad ogni cambio di stato React aggiornerà efficientemente solamente le parti della UI che dipendono da tali dati. La natura dichiarativa dell’UI rende il tuo codice più prevedibile e facile da debuggare.",
+				"description": "React (noto anche come React.js o ReactJS) è una libreria open-source, front-end, JavaScript[1] per la creazione di interfacce utente. È mantenuto da Meta (già Facebook) e da una comunità di singoli sviluppatori e aziende.[2][3][4] React può essere utilizzato come base nello sviluppo di applicazioni a pagina singola ma è utilizzabile anche su mobile tramite React Native, una libreria sempre sviluppata da Meta che tramuta i componenti React in componenti nativi (iOS e Android)[5]. Tuttavia, React si occupa solo del rendering dei dati sul DOM, pertanto la creazione di applicazioni React richiede generalmente l'uso di librerie aggiuntive per lo state management e il routing.[6] Redux[7] e React Router[8] sono i rispettivi esempi[9] di tali librerie."
+			},
+			"page": {
+				"title": "React (JavaScript library)"
+			},
+			"side-menu": {
+				"contents": "Indice",
+				"1basicUsage": "1 Utilizzo di base",
+				"2notableFeatures": "2 Caratteristiche degne di nota",
+				"21declarative": "2.1 Dichiarativo",
+				"22components": "2.1 Componenti",
+				"23functionalComponents": "2.2 Componenti funzionali",
+				"24reactHooks": "2.4 Hooks di React",
+				"241rulesOfHooks": "2.4.1 Regole degli Hooks",
+				"25classBasedComponents": "2.5 Componenti basati su classi",
+				"26virtualDOM": "2.6 DOM virtuale",
+				"27lifecycleMethods": "2.5 Metodi del ciclo di vita",
+				"28JSX": "2.6 JSX",
+				"29architectureBeyondHTML": "2.7 Architettura oltre HTML",
+				"3commonIdioms": "3 Idiomi comuni",
+				"31unidirectionalDataFlow": "3.1 Uso dell'architettura Flux",
+				"4futureDevelopment": "4 Sviluppo futuro",
+				"5history": "5 Storia",
+				"6licensing": "5.1 Licensing",
+				"7seeAlso": "7. Voci correlate",
+				"8references": "8. Note",
+				"9externalLinks": "9. Collegamenti esterni"
+			}
+		}
+	}
+}

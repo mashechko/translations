@@ -3,11 +3,13 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
 import languageEN from './en.json';
+import languageIT from './it.json';
 
 type Translations = typeof languageEN;
 
 enum Locale {
-	en = 'en'
+	en = 'en',
+	it = 'it'
 }
 
 // eslint-disable-next-line import/no-named-as-default-member
@@ -16,7 +18,8 @@ void i18n
 	.use(initReactI18next)
 	.init({
 		resources: {
-			[Locale.en]: languageEN
+			[Locale.en]: languageEN,
+			[Locale.it]: languageIT
 		},
 		lng: Locale.en,
 		fallbackLng: Locale.en,
